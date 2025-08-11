@@ -5,11 +5,10 @@ import {
   FaChartLine,
   FaCode,
   FaReact,
-  FaFilm,
   FaGraduationCap,
-  FaLaptopCode,
-  FaPalette
+  FaLaptopCode
 } from "react-icons/fa";
+import { TbApps } from "react-icons/tb";
 import "../styles/About.css";
 
 const About = () => {
@@ -157,7 +156,7 @@ const About = () => {
               </div>
             </div>
             <div className="skills-category">
-              <h4><FaPalette className="category-icon" /> Developer Tools</h4>
+              <h4><TbApps className="category-icon" /> Developer Tools</h4>
               <div className="skills-list">
                 <span>Jupyter Notebook</span>
                 <span>MySQL Server</span>
