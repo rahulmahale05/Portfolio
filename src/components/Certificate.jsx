@@ -2,7 +2,7 @@ import { FaCalendarAlt, FaIdCard } from 'react-icons/fa';
 import '../styles/Certificate.css';
 
 // Import all certificate images
-import cert1 from '../assets/PythonforDSNptl.jpg';
+import cert1 from '../assets/pythonforDSNptl.jpg';
 import cert2 from '../assets/Coding.jpg';
 import cert3 from '../assets/DbmsNptl.jpg';
 import cert4 from '../assets/WebDInternship.jpg';
