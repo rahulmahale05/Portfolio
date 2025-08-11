@@ -1,0 +1,7 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+/* Ensure no scroll during loading */
+body.loading {
+  overflow: hidden;
+}
