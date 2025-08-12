@@ -1,7 +1,7 @@
 import { FaChartLine, FaCode, FaExternalLinkAlt, FaGithub, FaServer } from "react-icons/fa";
-import thumbnail1 from '../assets/p1.webp';
+import thumbnail1 from '../assets/p1.jpg';
 import thumbnail2 from '../assets/p2.jpg';
-import thumbnail3 from '../assets/p3.jpg';
+import thumbnail3 from '../assets/p3.jpeg';
 import thumbnail4 from '../assets/p4.png';
 import thumbnail5 from '../assets/p5.jpg';
 import thumbnail6 from '../assets/p6.png';
@@ -10,22 +10,12 @@ import "../styles/Projects.css";
 const Projects = () => {
   const projects = [
     {
-      title: "Chatify",
-      description: "A secure, real-time chat application developed with React, Node.js, Express.js, and MongoDB. Supports user authentication and instant messaging for seamless, reliable communication.",
-      technologies: ["React", "Node.js", "Express.js", "MongoDB"],
-      github: "https://github.com/rahulmahale05/CHATIFY_APP",
-      demo: "#",
-      thumbnail: thumbnail1,
-      category: "Full Stack",
-      icon: <FaServer />
-    },
-    {
       title: "Hospital Management System",
       description: "Full-stack system using HTML, CSS, JavaScript, Node.js, Express.js, and SQL to manage patients, doctors, appointments, and billing efficiently.",
       technologies: ["HTML", "CSS", "JavaScript", "Node.js", "Express.js", "SQL"],
       github: "https://github.com/rahulmahale05/Hospital_Management_System",
       demo: "#",
-      thumbnail: thumbnail2,
+      thumbnail: thumbnail1,
       category: "Full Stack",
       icon: <FaServer />
     },
@@ -35,9 +25,19 @@ const Projects = () => {
       technologies: ["MongoDB", "Express.js", "React", "Node.js"],
       github: "https://github.com/rahulmahale05/Password_Manager",
       demo: "#",
-      thumbnail: thumbnail3,
+      thumbnail: thumbnail2,
       category: "Full Stack",
       icon: <FaCode />
+    },
+    {
+      title: "To-Do List",
+      description: "A simple and responsive to-do list application built with React and Tailwind CSS. Allows users to add, edit, delete, and mark tasks as completed, with a clean and intuitive interface.",
+      technologies: ["React", "Tailwind CSS"],
+      github: "https://github.com/rahulmahale05/ToDoList",
+      demo: "#", 
+      thumbnail: thumbnail3, 
+      category: "Frontend",
+      icon: <FaCode /> 
     },
     {
       title: "JavaScript Mini Projects",
