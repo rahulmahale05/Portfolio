@@ -14,7 +14,6 @@ const Projects = () => {
       description: "Full-stack system using HTML, CSS, JavaScript, Node.js, Express.js, and SQL to manage patients, doctors, appointments, and billing efficiently.",
       technologies: ["HTML", "CSS", "JavaScript", "Node.js", "Express.js", "SQL"],
       github: "https://github.com/rahulmahale05/Hospital_Management_System",
-      demo: "#",
       thumbnail: thumbnail1,
       category: "Full Stack",
       icon: <FaServer />
@@ -24,7 +23,6 @@ const Projects = () => {
       description: "A secure MERN stack application to store and manage passwords safely. Features user authentication, encrypted password storage, and a clean, intuitive UI for easy access and management.",
       technologies: ["MongoDB", "Express.js", "React", "Node.js"],
       github: "https://github.com/rahulmahale05/Password_Manager",
-      demo: "#",
       thumbnail: thumbnail2,
       category: "Full Stack",
       icon: <FaCode />
@@ -34,7 +32,6 @@ const Projects = () => {
       description: "A simple and responsive to-do list application built with React and Tailwind CSS. Allows users to add, edit, delete, and mark tasks as completed, with a clean and intuitive interface.",
       technologies: ["React", "Tailwind CSS"],
       github: "https://github.com/rahulmahale05/ToDoList",
-      demo: "#", 
       thumbnail: thumbnail3, 
       category: "Frontend",
       icon: <FaCode /> 
@@ -54,7 +51,6 @@ const Projects = () => {
       description: "Comprehensive collection of data structures and algorithms implementations with explanations and practice problems to master problem-solving skills.",
       technologies: ["Java", "DSA", "Algorithms", "Data Structures"],
       github: "https://github.com/rahulmahale05/Java-Project",
-      demo: "https://github.com/rahulmahale05/Java-Project",
       thumbnail: thumbnail5,
       category: "Programming",
       icon: <FaChartLine />
