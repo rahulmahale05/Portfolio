@@ -1,4 +1,5 @@
 import { FaChartLine, FaCode, FaExternalLinkAlt, FaGithub, FaServer } from "react-icons/fa";
+import thumbnail0 from '../assets/rating.png';
 import thumbnail1 from '../assets/p1.jpg';
 import thumbnail2 from '../assets/p2.jpg';
 import thumbnail3 from '../assets/p3.jpeg';
@@ -9,6 +10,15 @@ import "../styles/Projects.css";
 
 const Projects = () => {
   const projects = [
+    {
+      title: "Store Rating",
+      description: "A web application to rate and review vendors. Features user authentication, vendor management, rating system, and admin dashboard to monitor feedback and improve service quality.",
+      technologies: ["MySQL", "Express.js", "React", "Node.js", "CSS"],
+      github: "https://github.com/rahulmahale05/Store_Rating",
+      thumbnail: thumbnail0,
+      category: "Full Stack",
+      icon: <FaCode />
+    },
     {
       title: "Hospital Management System",
       description: "Full-stack system using HTML, CSS, JavaScript, Node.js, Express.js, and SQL to manage patients, doctors, appointments, and billing efficiently.",
