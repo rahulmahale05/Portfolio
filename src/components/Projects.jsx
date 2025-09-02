@@ -48,7 +48,7 @@ const Projects = () => {
     },
     {
       title: "JavaScript Mini Projects",
-      description: "Collection of small, interactive projects built with HTML, CSS, and JavaScript including Calculator, Currency Converter, Portfolio, Stone Paper Scissor, and Tic Tac Toe games.",
+      description: "Collection of small, interactive projects built with HTML, CSS, and JavaScript including Calculator, Currency Converter, Stone Paper Scissor, and Tic Tac Toe games.",
       technologies: ["HTML", "CSS", "JavaScript"],
       github: "https://github.com/rahulmahale05/Web-Development-Project",
       demo: "https://rahulmahale05.github.io/Web-Development-Project/",
